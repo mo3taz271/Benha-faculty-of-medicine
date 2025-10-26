@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ar">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>موقعي على GitHub Pages</title>
+  <meta name="description" content="موقع شخصي بسيط مُنشأ ل GitHub Pages" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo"><a href="#">اسمي</a></h1>
+      <nav class="nav">
+        <a href="#home">الرئيسية</a>
+        <a href="#projects">المشاريع</a>
+        <a href="#about">حول</a>
+        <a href="#contact">تواصل</a>
+      </nav>
+      <button class="menu-toggle" aria-label="قائمة">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container">
+        <h2>مرحبا — أنا مطوّر ويب</h2>
+        <p>قالب موقع ثابت جاهز للنشر على GitHub Pages. عدّل المحتوى وادفعه إلى المستودع.</p>
+        <a class="btn" href="#projects">عرض مشاريعي</a>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h3>مشاريعي</h3>
+        <div class="grid" id="projects-list">
+          <!-- أمثلة مشاريع؛ غيّرها حسب حاجتك -->
+          <article class="card">
+            <h4>مشروع 1</h4>
+            <p>وصف قصير للمشروع. رابط إلى الريبو أو صفحة العرض.</p>
+            <a href="#" class="small-link">عرض</a>
+          </article>
+          <article class="card">
+            <h4>مشروع 2</h4>
+            <p>وصف قصير للمشروع الثاني.</p>
+            <a href="#" class="small-link">عرض</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section alt">
+      <div class="container">
+        <h3>عنّي</h3>
+        <p>فقرة قصيرة عنك: مهارات، شغف، أو أي شيء تريد عرضه هنا.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h3>تواصل معي</h3>
+        <p>أرسل لي رسالة عبر البريد: <a href="mailto:example@example.com">example@example.com</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> • تم الإنشاء بواسطة اسمي</p>
+      <p><small>صفحة مستضافة على GitHub Pages</small></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
